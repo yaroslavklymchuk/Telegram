@@ -61,7 +61,7 @@ def repeat_word(bot, update):
         bot.send_message(chat_id=update.message.chat_id, text='Empty vocabulary')
 
 
-TOKEN = '578051456:AAHv57HpGkfDXEj1QZYf2VB2dPj5CEQQexc'
+TOKEN = '...'
 updater = Updater(token=TOKEN)
 
 start_handler = CommandHandler('start', start)
